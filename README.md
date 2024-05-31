@@ -1,2 +1,2 @@
 # js-learning
-A code repo for JavaScript learning from Chai aur Code.
+A code repo for JavaScript learning journey!
