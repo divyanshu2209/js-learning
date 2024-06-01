@@ -60,5 +60,30 @@ typeof(function) => function
 */
 
 // Link for future revision : (ctrl + f) 'Type of val'
-https://262.ecma-international.org/5.1/#sec-11.4.3 
+// https://262.ecma-international.org/5.1/#sec-11.4.3 
 
+ // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+ // Stack (Primitive) , Heap (Non-Primitive)
+
+ let myYoutubeName = "divyanshuraidotcom"
+
+ let anotherName = myYoutubeName
+ anotherName = "hellocode"
+
+//  console.log(anotherName);
+//  console.log(myYoutubeName);
+
+ let userOne = {
+    email : "user@gmail.com",
+    upiId : "userone@ybl"
+ }
+ let userTwo = userOne
+
+ userTwo.email = "user2@gmail.com"
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
+
+ //Stack => We get a copy of value in stack allocation
+ //Heap => We get a reference of value in heap allocation
