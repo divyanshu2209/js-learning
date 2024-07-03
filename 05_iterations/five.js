@@ -36,6 +36,13 @@ const myCoding = [
     },
 ]
 
-myCoding.forEach( (index) => {
-    console.log(`The ${index} has ${index.languageFileName} and ${index.languageName} .`);
+myCoding.forEach( (value) => {
+    console.log(`${value.languageFileName} and ${value.languageName} .`);
 })
+
+// const firstArray = [1, 3, 5, 6, 7]
+
+// firstArray.forEach( (value,index) => {
+//     console.log(`The value is: ${value} and the index is: ${index}`);
+// })
+
