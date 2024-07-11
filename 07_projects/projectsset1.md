@@ -4,7 +4,7 @@
 
 ### Project 1
 
-[Click here]()
+[Click here](https://divyanshu2209.github.io/color-changer-website/)
 
 ```javascript
 const button = document.querySelectorAll('.button')
