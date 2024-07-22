@@ -8,7 +8,7 @@
 <body>
     <button>Button Clicked</button>
 </body>
-<!-- <script>
+<script>
     class React{
         constructor(){
             this.library = "React"
@@ -16,7 +16,7 @@
 
             //requirement
             document.querySelector('button')
-            .addEventListener('click', this.handleClick)
+            .addEventListener('click', this.handleClick.bind(this))
         }
         handleClick(){
             console.log("button clicked");
@@ -25,5 +25,5 @@
     }
 
     const app = new React()
-</script> -->
+</script>
 </html>
